@@ -1,8 +1,9 @@
 # MalVis Tool
 
-  
+Welcome to the MalVis a powerful tool for visualizing Android bytecode! MalVis converts .dex files into PNG visualizations using three different methods: Entropy, MalVis-A, and MalVis-B. Each method offers unique insights into the bytecode structure. For more information about our visualization approaches, please refer to our research papers:
+- **[Improving Android Malware Detection with Entropy Bytecode-to-Image Encoding Framework](https://ieeexplore.ieee.org/document/10637591)**
+- **[MalVis: A Comprehensive Dataset and Framework for Improved Android Malware Visualization and Classification](https://mal-vis.org)**
 
-Welcome to the MalVis tool! This tool is design to convert  Android bytecode .dex files into a visualization a .png file as output. It provides three options for the visualization [Entropy, MalVis-A, and MalVis-B]. For more information about these methods please read the related paper. <URL> 
 
 
 ## Usage
