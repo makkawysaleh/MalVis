@@ -4,8 +4,8 @@ Welcome to the MalVis, a powerful tool for visualizing Android bytecode! MalVis 
 - **[MalVis: A Comprehensive Dataset and Framework for Improved Android Malware Visualization and Classification](https://mal-vis.org)**
 
 ## MalVis & ViCoMal Datasets
-- [MalVis Dataset page](www.mal-vis.org "MalVis website")
-- [ViCoMal Dataset page](www.mal-vis.org\ViCoMal\ "ViCoMal website")
+- [MalVis Dataset page](https://www.mal-vis.org)
+- [ViCoMal Dataset page](https://www.mal-vis.org/ViCoMal/)
 
 ## Overview
 ![MalVis-A](1.png "MalVis-A sample") ![Entropy](2.png "Entropy sample") ![MalVis-B](3.png "MalVis-B sample")
