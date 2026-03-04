@@ -49,6 +49,30 @@ To install the required dependencies, run:
 ```bash 
 pip install pillow
 ```
+
+## Citations
+Please, if you use this tool in any of your work, cite the following papers: 
+
+```BibTex
+@inproceedings{makkawy2024improving,
+  title={Improving android malware detection with entropy bytecode-to-image encoding framework},
+  author={Makkawy, Saleh J and Alblwi, Abdalrahman H and De Lucia, Michael J and Barner, Kenneth E},
+  booktitle={2024 33rd International Conference on Computer Communications and Networks (ICCCN)},
+  pages={1--9},
+  year={2024},
+  organization={IEEE}
+}
+@article{makkawy2025malvis,
+  title={MalVis: Large-Scale Bytecode Visualization Framework for Explainable Android Malware Detection},
+  author={Makkawy, Saleh J and De Lucia, Michael J and Barner, Kenneth E},
+  journal={Journal of Cybersecurity and Privacy},
+  volume={5},
+  number={4},
+  pages={109},
+  year={2025},
+  publisher={MDPI}
+}
+```
 ## License
 
 This project is licensed under the MIT License.
