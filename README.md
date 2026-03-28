@@ -1,5 +1,5 @@
 # MalVis Tool
-Welcome to the MalVis, a powerful tool for visualizing Android bytecode! MalVis converts .dex files into PNG visualizations using three different methods: Entropy, MalVis-A, and MalVis-B. Each method offers unique insights into the bytecode structure. For more information about our visualization approaches, please refer to our research papers:
+Welcome to the MalVis, a powerful tool for visualizing Android bytecode! MalVis converts .dex files into PNG visualizations using three different methods: Entropy, MalVis-Classbyte, and MalVis-N-gram. Each method offers unique insights into the bytecode structure. For more information about our visualization approaches, please refer to our research papers:
 - **[Improving Android Malware Detection with Entropy Bytecode-to-Image Encoding Framework](https://ieeexplore.ieee.org/document/10637591)**
 - **[MalVis: A Comprehensive Dataset and Framework for Improved Android Malware Visualization and Classification](https://mal-vis.org)**
 
@@ -8,7 +8,7 @@ Welcome to the MalVis, a powerful tool for visualizing Android bytecode! MalVis 
 - [ViCoMal Dataset page](https://www.mal-vis.org/ViCoMal/)
 
 ## Overview
-![MalVis-A](1.png "MalVis-A sample") ![Entropy](2.png "Entropy sample") ![MalVis-B](3.png "MalVis-B sample")
+![MalVis-Classbyte](1.png "MalVis-Classbyte sample") ![Entropy](2.png "Entropy sample") ![MalVis-N-gram](3.png "MalVis-N-gram sample")
 
 ## Usage
 
@@ -24,8 +24,8 @@ python main.py [options] infile [output]
 - `-c`, `--color`: Select a color scheme. Choose from the following MalVis representation options:
     
     - `entropy`: The entropy representation (default).
-    - `malvis_a`: New approach using entropy with classbyte representation.
-    - `malvis_b`: New approach using entropy with n-gram representation.
+    - `malvis_classbyte`: New approach using entropy with classbyte representation.
+    - `malvis_ngram`: New approach using entropy with n-gram representation.
 - `-q`, `--quite`: Don't show the progress bar - print the destination file name.
     
 - `-s`, `--size`: Image width in pixels. The default is 256.
@@ -35,8 +35,8 @@ python main.py [options] infile [output]
 The MalVis tool takes a .dex file as input and generates a .png file as output. It provides three different color schemes to represent the data:
 
 - **Entropy**: Uses the original entropy representation.
-- **MalVis_A**: Uses entropy with classbyte representation.
-- **MalVis_B**: Uses entropy with n-gram representation.
+- **malvis_classbyte**: Uses entropy with classbyte representation.
+- **malvis_ngram**: Uses entropy with n-gram representation.
 
 The tool also allows you to specify the size of the output image and whether to show a progress bar during the generation process.
 
